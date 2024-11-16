@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-list,
+.cart {
+  width: 50%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+.product-card,
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-card:last-child,
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.product-image,
+.cart-item-image {
+  font-size: 2rem;
+}
+
+.product-card button,
+.cart-item button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product-card button:hover,
+.cart-item button:hover {
+  background-color: #0056b3;
+}
+
+
+.invoice-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.invoice-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.invoice-button:hover {
+  background-color: #218838;
+}
+
+.invoice {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.invoice ul {
+  list-style: none;
+  padding: 0;
+}
+
+.invoice li {
+  margin: 5px 0;
+}
+
+.invoice p {
+  margin: 10px 0;
+}
+
+.invoice h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
